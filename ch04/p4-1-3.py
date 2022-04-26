@@ -1,8 +1,8 @@
-import requests
 import re
-url = 'https://kknews.cc/zh-tw/home/kx5p5v8.html'
+url = 'https://www.bagong.cn/dog/'
 
 html = requests.get(url).text
+
 
 regex = r'https?://.+.jpg'
 photos = re.findall(regex, html)
