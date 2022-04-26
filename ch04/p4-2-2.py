@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-url = 'https://kknews.cc/zh-tw/home/kx5p5v8.html'
+url = 'https://www.bagong.cn/dog/'
 
 html = requests.get(url).text
 soup = BeautifulSoup(html, 'html.parser')
